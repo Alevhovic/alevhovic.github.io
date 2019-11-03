@@ -1,0 +1,187 @@
+/* --------------------------------------------------- */
+/* ------------------ HTML 5 TAGS -------------------- */
+/* --------------------------------------------------- */
+
+html{}
+
+body{}
+
+h1{ margin-top: 20px; }
+
+h2{}
+
+h3{}
+
+h4{}
+
+h5{}
+
+h6{}
+
+p{}
+
+span{}
+
+h1,h2{ 
+	
+	color: white; 
+	
+}
+
+iframe{ border:2px solid green; border-radius: 8px; box-shadow: 2px 2px 4px black;}
+
+/* --------------------------------------------------- */
+/* --------------- FULL PAGE PLUG-IN ----------------- */
+/* --------------------------------------------------- */
+
+.fp-slidesNav.fp-bottom {
+
+	display: flex;
+	justify-content: center;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+
+	background: white;
+}
+
+#fp-nav.fp-right{
+
+	right: 5px;
+}
+
+/* --------------------------------------------------- */
+/* ---------------- BOOTSTRAP PLUG-IN ---------------- */
+/* --------------------------------------------------- */
+
+.btn-outline-light{
+
+	margin-top: 20px;
+}
+
+.mt-0{ 
+
+	color: white; 
+	text-shadow: 1px 2px 4px black; 
+}
+
+.nav-link{
+
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	font-size: 22px;
+}
+
+.nav-link:hover{
+
+	color: white;
+	text-shadow: 1px 1px 2px grey;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+
+	background-color: #e68e19;
+	border:2px solid white;
+	box-shadow: 1px 1px 2px black;
+}
+
+.card-exp{
+
+	height: auto;
+
+}
+
+/* --------------------------------------------------- */
+/* -------------------- TUTORIAL --------------------- */
+/* --------------------------------------------------- */
+
+#tutorial{
+
+	display:none; 
+	position: absolute; 
+	width: 100vw; 
+	height: 100vh; 
+	background-color: rgba(12,12,12,0.92);
+	z-index: 999;
+}
+
+.h2tuto{ 
+
+	padding-top: 50px; 
+}
+
+.tutoControl{
+
+	width: 64px;
+	height: 64px;
+}
+
+.media{
+
+	padding-bottom: 20px;
+}
+
+#firstMedia{ 
+
+	padding-top: 30px; 
+}
+
+.link-aboutme{ 
+
+	color: white; 
+	font-size: 40px; 
+	margin-left: 5px; margin-right: 5px;
+}
+
+
+/* --------------------------------------------------- */
+/* -------------------- CLASSES ---------------------- */
+/* --------------------------------------------------- */
+
+.black-f{ color: black; }
+
+.white-f{ color: white; }
+
+.text-shadow{ text-shadow: 1px 1px 2px black; }
+
+.box-shadow{ box-shadow: 1px 2px 4px black; }
+
+.align-left{ text-align: left; }
+
+.hr-style-w{ border:0.5px solid white; }
+
+.hr-style-b{ border:0.5px solid black; }
+
+.logo-project{ width: 200px; min-height: 124.9px; max-height: 125px; }
+
+.container-project{ background-color: white; padding-top:10px; padding-bottom: 10px; border-radius: 8px; box-shadow: 2px 4px 12px black; }
+
+.iframe-cl{ margin-top: 10px; }
+
+.display-flex-center{ display: flex; justify-content: center; }
+
+/* --------------------------------------------------- */
+/* ----------------------- ID ------------------------ */
+/* --------------------------------------------------- */
+
+#photoCyril{
+
+	border-radius:200px; 
+	border:3px solid white; 
+	box-shadow:2px 2px 12px black; 
+	max-width: 192px; 
+	max-height: 192px;
+}
+
+/* --------------------------------------------------- */
+/* ------------------ MEDIA QUERIES ------------------ */
+/* --------------------------------------------------- */
+
+@media screen and (max-width: 600px) {
+
+	#showTuto{ display: none; }
+
+	.card-img{ display: none; }
+
+	.hide-r{ display: none; }
+}
