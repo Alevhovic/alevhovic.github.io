@@ -1,5 +1,5 @@
 # Alev
 
-Student at Institut of the Internet and Multimedia.
+Student in Paris.
 
 Cool story, isn't it ?
